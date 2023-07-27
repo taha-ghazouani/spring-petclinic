@@ -7,7 +7,6 @@ pipeline {
     }
     stages {
 		// The checkout stage is now implicit since we are using a Jenkinsfile
-        }
         stage('Build') {
             steps {
                 // To run Maven on a Windows agent, use
